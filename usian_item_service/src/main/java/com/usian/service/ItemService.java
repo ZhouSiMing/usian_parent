@@ -8,4 +8,6 @@ public interface ItemService {
     TbItem selectItemInfo(Long itemId);
 
     PageResult selectTbItemAllByPage(Integer page, Long rows);
+
+    Integer insertTbItem(TbItem tbItem, String desc, String itemParams);
 }

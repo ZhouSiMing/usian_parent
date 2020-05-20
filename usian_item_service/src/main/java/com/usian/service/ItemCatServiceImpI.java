@@ -26,7 +26,7 @@ public class ItemCatServiceImpI implements ItemCatService {
         TbItemCatExample tbItemCatExample = new TbItemCatExample();
         TbItemCatExample.Criteria criteria = tbItemCatExample.createCriteria();
         criteria.andStatusEqualTo(1);
-        criteria.andIdEqualTo(id);
+        criteria.andParentIdEqualTo(id);
         return TbItemCatMapper.selectByExample(tbItemCatExample);
     }
 }

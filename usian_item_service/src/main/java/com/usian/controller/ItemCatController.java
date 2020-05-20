@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("service/itemCat")
+@RequestMapping("/service/itemCat")
 public class ItemCatController {
 
     @Autowired

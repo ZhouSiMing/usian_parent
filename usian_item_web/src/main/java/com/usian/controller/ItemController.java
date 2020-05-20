@@ -33,7 +33,7 @@ public class ItemController {
     * 分页查询商品列表
     * */
 
-    @RequestMapping("selectTbItemAllByPage")
+    @RequestMapping("/selectTbItemAllByPage")
     public Result selectTbItemAllByPage(@RequestParam(defaultValue = "1") Integer page,
                                         @RequestParam(defaultValue = "2") Long rows){
         PageResult pageResult = itemServiceFeign.selectTbItemAllByPage(page,rows);
@@ -41,5 +41,17 @@ public class ItemController {
             return Result.ok(pageResult);
         }
             return Result.error("查无结果");
+    }
+
+
+
+
+    @RequestMapping("/insertTbItem")
+    public Result insertTbItem(TbItem tbItem,String desc,String itemParams){
+        Integer result = itemServiceFeign.insertTbItem(tbItem,desc,itemParams);
+        if (result==3){
+            return Result.ok();
+        }
+            return Result.error("保存失败");
     }
 }
