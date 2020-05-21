@@ -26,4 +26,35 @@ public class ContentCategoryController {
       }
         return Result.error("查无结果");
     }
+
+
+    //内容分类添加
+    @RequestMapping("/insertContentCategory")
+    public Result insertContentCategory(TbContentCategory tbContentCategory){
+        Integer insertContentCategory = contentServiceFeign.insertContentCategory(tbContentCategory);
+        if (insertContentCategory==1){
+            return Result.ok();
+        }
+            return Result.error("添加失败");
+    }
+
+    //内容分类删除
+    @RequestMapping("/deleteContentCategoryById")
+    public Result deleteContentCategoryById(Long categoryId){
+        Integer status = contentServiceFeign.deleteContentCategoryById(categoryId);
+        if (status == 200){
+            return Result.ok();
+        }
+            return Result.error("删除失败");
+    }
+
+    //内容分类修改
+    @RequestMapping("updateContentCategory")
+    public Result updateContentCategory(TbContentCategory tbContentCategory){
+        Integer updateContentCategory = contentServiceFeign.updateContentCategory(tbContentCategory);
+        if (updateContentCategory==1){
+            return Result.ok();
+        }
+            return Result.error("修改失败");
+    }
 }
