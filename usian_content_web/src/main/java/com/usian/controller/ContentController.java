@@ -28,4 +28,29 @@ public class ContentController {
         }
             return Result.error("查询结果");
     }
+
+
+    /*
+    * 根据分类添加内容
+    * */
+    @RequestMapping("/insertTbContent")
+    public Result insertTbContent(TbContent tbContent){
+        Integer num = contentServiceFeign.insertTbContent(tbContent);
+        if (num != null){
+            return Result.ok();
+        }
+            return Result.error("添加失败");
+    }
+
+    /*
+    * 删除分类的内容
+    * */
+    @RequestMapping("/deleteContentByIds")
+    public Result deleteContentByIds(Long ids){
+        Integer num  = contentServiceFeign.deleteContentByIds(ids);
+        if (num != null){
+            return Result.ok();
+        }
+            return Result.error("删除失败");
+    }
 }
