@@ -10,6 +10,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @MapperScan("com.usian.mapper")
 public class SearchServiceApp {
     public static void main(String[] args) {
-        SpringApplication.run(SearchServiceApp.class, args);
+        SpringApplication.run(SearchServiceApp.class,args);
     }
 }

@@ -86,6 +86,9 @@ public class ContentServiceImpI implements ContentService {
         tbContent.setUpdated(new Date());
         tbContent.setCreated(new Date());
         return tbContentMapper.insertSelective(tbContent) ;
+
+
+
     }
 
     @Override

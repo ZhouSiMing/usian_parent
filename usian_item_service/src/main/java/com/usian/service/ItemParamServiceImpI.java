@@ -2,12 +2,13 @@ package com.usian.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.usian.mapper.TbItemParamItemMapper;
 import com.usian.mapper.TbItemParamMapper;
-import com.usian.pojo.TbItemCat;
-import com.usian.pojo.TbItemParam;
-import com.usian.pojo.TbItemParamExample;
+import com.usian.pojo.*;
+import com.usian.redis.RedisClient;
 import com.usian.utils.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,8 +20,26 @@ import java.util.List;
 @Transactional
 public class ItemParamServiceImpI implements ItemParamService {
 
+    @Value("${ITEM_INFO}")
+    private String ITEM_INFO;
+
+    @Value("${PARAM}")
+    private String PARAM;
+
+    @Value("${ITEM_INFO_EXPIRE}")
+    private Long ITEM_INFO_EXPIRE;
+
+
     @Autowired
     private TbItemParamMapper tbItemParamMapper;
+
+
+    @Autowired
+    private TbItemParamItemMapper tbItemParamItemMapper;
+
+    @Autowired
+    private RedisClient redisClient;
+
 
 
     @Override
@@ -85,5 +104,30 @@ public class ItemParamServiceImpI implements ItemParamService {
         return 0;
     }
 
+    @Override
+    public TbItemParamItem selectTbItemParamItemByItemId(Long itemId) {
 
+        //1.先查询redis,如果有直接返回
+        TbItemParamItem TbItemParamItem = (com.usian.pojo.TbItemParamItem) redisClient.get(ITEM_INFO + ":" + itemId + ":" + PARAM);
+        if (TbItemParamItem!=null){
+            return TbItemParamItem;
+        }
+        //2.再查询mysql,并把查询结果缓存到redis
+        TbItemParamItemExample tbItemParamItemExample = new TbItemParamItemExample();
+        TbItemParamItemExample.Criteria criteria = tbItemParamItemExample.createCriteria();
+        criteria.andItemIdEqualTo(itemId);
+        List<com.usian.pojo.TbItemParamItem> tbItemParamItems = tbItemParamItemMapper.selectByExampleWithBLOBs(tbItemParamItemExample);
+        if (tbItemParamItems!=null && tbItemParamItems.size()>0){
+            TbItemParamItem = tbItemParamItems.get(0);
+            redisClient.set(ITEM_INFO + ":" + itemId + ":" + PARAM,TbItemParamItem);
+            redisClient.expire(ITEM_INFO + ":" + itemId + ":" + PARAM,ITEM_INFO_EXPIRE);
+            return TbItemParamItem;
+        }
+        /********************解决缓存穿透************************/
+        //把空对象保存到缓存
+        redisClient.set(ITEM_INFO + ":" + itemId + ":"+ PARAM,null);
+        //设置缓存的有效期
+        redisClient.expire(ITEM_INFO + ":" + itemId + ":"+ PARAM,30L);
+        return null;
+    }
 }

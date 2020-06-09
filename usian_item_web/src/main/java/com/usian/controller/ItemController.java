@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
+
 @RestController
 @RequestMapping("/backend/item")
 public class ItemController {
@@ -54,4 +56,43 @@ public class ItemController {
         }
             return Result.error("保存失败");
     }
+
+    /**
+     * 删除商品
+     * @param itemId
+     * @return
+     */
+    @RequestMapping("/deleteItemById")
+    public Result deleteItemById(Long itemId){
+        Integer ItemById = itemServiceFeign.deleteItemById(itemId);
+        if(itemId!=null){
+            return Result.ok();
+        }
+        return Result.error("删除失败");
+    }
+
+    /**
+     * 根据itemId回显商品信息
+     * @param itemId
+     * @return
+     */
+    @RequestMapping("/preUpdateItem")
+    public Result preUpdateItem(Long itemId){
+        Map<String,Object> map = itemServiceFeign.preUpdateItem(itemId);
+        if(map.size()>0){
+            return Result.ok(map);
+        }
+        return Result.error("查无结果");
+    }
+
+    @RequestMapping("/updateTbItem")
+    public Result updateTbItem(TbItem tbItem) {
+        Integer integer=itemServiceFeign.updateTbItem(tbItem);
+        if(integer!=null){
+            return Result.ok();
+        }
+        return Result.error("修改失败");
+    }
 }
+
+
