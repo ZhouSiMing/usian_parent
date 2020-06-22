@@ -1,5 +1,7 @@
 package com.usian.controller;
 
+import com.netflix.discovery.converters.Auto;
+import com.usian.feign.CartServiceFeign;
 import com.usian.feign.ItemServiceFeign;
 import com.usian.pojo.TbItem;
 import com.usian.utils.CookieUtils;
@@ -21,6 +23,7 @@ import java.util.*;
 @RequestMapping("/frontend/cart")
 public class CartController {
 
+
     @Value("${CART_COOKIE_KEY}")
     private String CART_COOKIE_KEY;
 
@@ -29,6 +32,9 @@ public class CartController {
 
     @Autowired
     private ItemServiceFeign itemServiceFeign;
+
+    @Autowired
+    private CartServiceFeign cartServiceFeign;
 
 
     //添加购物车
@@ -50,6 +56,15 @@ public class CartController {
                 addClientCookie(request, response, cart);
             } else {
                 /*******************************已登录***********************************/
+                //1.查询购物车列表
+               Map<String,TbItem> cart =  getCartFromRedis(userId);
+                //2.添加商品到购物车
+                addItemToCart(cart,itemId,num);
+                //3.把购物车写到redis
+                Boolean addCartToRedis = addCartToRedis(cart,userId);
+                if (!addCartToRedis){
+                    return Result.error("添加失败");
+                }
             }
             return Result.ok();
         } catch (Exception e) {
@@ -57,6 +72,23 @@ public class CartController {
             return Result.error("添加失败");
         }
 
+    }
+    /*
+    * 添加购物车到redis
+    * */
+    private Boolean addCartToRedis(Map<String, TbItem> cart, String userId) {
+       return cartServiceFeign.insertCart(cart,userId);
+    }
+
+    /*
+    * 从redis中查询购物车
+    * */
+    private Map<String,TbItem> getCartFromRedis(String userId) {
+      Map<String,TbItem> cart = cartServiceFeign.selectCartByUserId(userId);
+      if (cart!=null && cart.size()>0){
+          return cart;
+      }
+        return new HashMap<String,TbItem>();
     }
 
     /*
@@ -118,6 +150,12 @@ public class CartController {
                 }
             } else {
                 //登录
+                Map<String, TbItem> cart = getCartFromRedis(userId);
+                Set<String> keySet = cart.keySet();
+                for(String itemId : keySet){
+                    TbItem tbItem = cart.get(itemId);
+                    tbItemList.add(tbItem);
+                }
             }
             return Result.ok(tbItemList);
         }catch (Exception e){
@@ -141,11 +179,18 @@ public class CartController {
                 TbItem tbItem = cart.get(itemId.toString());
                 tbItem.setNum(num);
                 cart.put(itemId.toString(),tbItem);
-
                 //3.把购物车写到cookie
                 addClientCookie(request, response, cart);
             }else {
                 //登录
+                //1.获得cookie的购物车
+                Map<String, TbItem> cart = getCartFromRedis(userId);
+                //2.修改购物车中的商品
+                TbItem tbItem = cart.get(itemId.toString());
+                tbItem.setNum(num);
+                cart.put(itemId.toString(),tbItem);
+                //3.把购物车写到redis
+                addCartToRedis(cart,userId);
             }
             return Result.ok();
         }catch (Exception e){
@@ -161,12 +206,22 @@ public class CartController {
         try {
             if (StringUtils.isBlank(userId)) {
                 //在用户未登录的状态下
+                //1.获得cookie的购物车
                 Map<String,TbItem> cart = getCartFromCookie(request);
+                //2.删除购物车中的商品
                 cart.remove(itemId.toString());
+                //3.把购物车写到cookie
                 addClientCookie(request,response,cart);
 
             } else {
                 // 在用户已登录的状态
+                //1.获得redis中的购物车
+                Map<String, TbItem> cart = getCartFromRedis(userId);
+                //2.删除购物车中的商品
+                cart.remove(itemId.toString());
+                //3.把购物车写到redis中
+                addCartToRedis(cart,userId);
+
             }
             return Result.ok();
         } catch (Exception e) {

@@ -21,6 +21,10 @@
         <module name="usian_item_feign" />
         <module name="usian_item_service" />
         <module name="usian_item_web" />
+        <module name="usian_order_feign" />
+        <module name="usian_order_service" />
+        <module name="usian_order_service2" />
+        <module name="usian_order_web" />
         <module name="usian_portal_web" />
         <module name="usian_search_feign" />
         <module name="usian_search_service" />
@@ -32,6 +36,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="usian_contentservice" target="1.8" />
+      <module name="usian_item_service2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -51,7 +56,12 @@
       <module name="usian_detail_web" options="-parameters" />
       <module name="usian_item_feign" options="-parameters" />
       <module name="usian_item_service" options="-parameters" />
+      <module name="usian_item_service2" options="-parameters" />
       <module name="usian_item_web" options="-parameters" />
+      <module name="usian_order_feign" options="-parameters" />
+      <module name="usian_order_service" options="-parameters" />
+      <module name="usian_order_service2" options="-parameters" />
+      <module name="usian_order_web" options="-parameters" />
       <module name="usian_portal_web" options="-parameters" />
       <module name="usian_search_feign" options="-parameters" />
       <module name="usian_search_service" options="-parameters" />

@@ -56,6 +56,9 @@ public class ItemServiceImpI implements ItemService{
     @Value("${ITEM_INFO_EXPIRE}")
     private Long ITEM_INFO_EXPIRE;
 
+    @Autowired
+    private TbOrderItemMapper tbOrderItemMapper;
+
 
     @Override
     public TbItem selectItemInfo(Long itemId) {
@@ -245,5 +248,26 @@ public class ItemServiceImpI implements ItemService{
             selectItemDescByItemId(itemId);
         }
         return null;
+    }
+
+    @Override
+    public Integer updateTbItemByOrderId(String orderId) {
+
+        //1.
+        TbOrderItemExample tbOrderItemExample = new TbOrderItemExample();
+        TbOrderItemExample.Criteria criteria = tbOrderItemExample.createCriteria();
+        criteria.andOrderIdEqualTo(orderId);
+        List<TbOrderItem> tbOrderItemList = tbOrderItemMapper.selectByExample(tbOrderItemExample);
+
+        //2.
+        int result = 0;
+        for (int i = 0 ; i < tbOrderItemList.size(); i++){
+            TbOrderItem tbOrderItem = tbOrderItemList.get(i);
+            TbItem tbItem = tbItemMapper.selectByPrimaryKey(Long.valueOf(tbOrderItem.getItemId()));
+            tbItem.setNum(tbItem.getNum()-tbOrderItem.getNum());
+            result += tbItemMapper.updateByPrimaryKeySelective(tbItem);
+        }
+
+        return result;
     }
 }

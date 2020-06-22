@@ -30,9 +30,15 @@ spring:
   rabbitmq:
     host: 192.168.183.129
     port: 5672
-    username: admin
-    password: 1111
+    username: root
+    password: 123456
     virtual-host: /
+    listener:
+      direct:
+        acknowledge-mode: manual
+      simple:
+        acknowledge-mode: manual
+
 #商城首页分类菜单
 PROTAL_CATRESULT_KEY: PROTAL_CATRESULT_KEY
 
