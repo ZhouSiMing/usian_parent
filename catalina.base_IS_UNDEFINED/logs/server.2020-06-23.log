@@ -1,0 +1,670 @@
+2020-06-23 01:15:04.090 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-23 01:15:04.242 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7d82f6d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-23 01:15:04.649 [restartedMain] INFO  com.usian.ItemServiceApp - No active profile set, falling back to default profiles: default
+2020-06-23 01:15:05.664 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-23 01:15:05.666 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-23 01:15:05.695 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-06-23 01:15:05.907 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a010b45b-d514-3a30-96d5-9c056f4b78a2
+2020-06-23 01:15:05.969 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6168f3d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-23 01:15:05.986 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7d82f6d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-23 01:15:06.352 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-06-23 01:15:06.364 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-06-23 01:15:06.370 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-23 01:15:06.372 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-23 01:15:06.465 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-23 01:15:06.465 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1804 ms
+2020-06-23 01:15:06.896 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-06-23 01:15:07.200 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-23 01:15:07.200 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-23 01:15:07.203 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-23 01:15:07.203 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-23 01:15:07.349 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 01:15:07.681 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-23 01:15:08.481 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2020-06-23 01:15:08.501 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-06-23 01:15:08.810 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-06-23 01:15:08.810 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-06-23 01:15:08.880 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-06-23 01:15:08.880 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-06-23 01:15:08.991 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-06-23 01:15:09.203 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-06-23 01:15:09.203 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-06-23 01:15:09.203 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-06-23 01:15:09.203 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-06-23 01:15:09.203 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-06-23 01:15:09.203 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-06-23 01:15:09.203 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-06-23 01:15:09.347 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-06-23 01:15:09.347 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020-06-23 01:15:09.348 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-23 01:15:09.352 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1592846109350 with initial instances count: 0
+2020-06-23 01:15:09.352 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application USIAN-ITEM-SERVICE with eureka with status UP
+2020-06-23 01:15:09.354 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1592846109354, current=UP, previous=STARTING]
+2020-06-23 01:15:09.355 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USIAN-ITEM-SERVICE/LAPTOP-CAJOMC2T:usian-item-service:8090: registering service...
+2020-06-23 01:15:09.360 [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:15:09.419 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USIAN-ITEM-SERVICE/LAPTOP-CAJOMC2T:usian-item-service:8090 - registration status: 204
+2020-06-23 01:15:30.385 [restartedMain] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:15:30.392 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:15:39.350 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-06-23 01:15:39.350 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-06-23 01:15:39.350 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-06-23 01:15:39.350 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-06-23 01:15:39.350 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-06-23 01:15:39.350 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2020-06-23 01:15:39.350 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-06-23 01:15:39.382 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-06-23 01:15:51.406 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:15:51.409 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:16:12.441 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-06-23 01:16:12.463 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-06-23 01:16:12.464 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8090
+2020-06-23 01:16:12.466 [restartedMain] INFO  com.usian.ItemServiceApp - Started ItemServiceApp in 69.043 seconds (JVM running for 70.221)
+2020-06-23 01:16:17.474 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:16:17.474 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@733388e: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:16:17.477 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:16:38.494 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:16:38.494 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:17:04.555 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:17:04.555 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@2e7031ee: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:17:04.555 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:17:25.577 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:17:25.577 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:17:51.600 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:17:51.600 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@4b467e7a: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:17:51.601 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:18:12.625 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:18:12.625 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:18:38.693 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:18:38.693 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@12d6b54: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:18:38.693 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:18:59.719 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:18:59.719 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:19:25.784 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:19:25.784 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@619c1d50: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:19:25.784 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:19:46.820 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:19:46.820 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:20:09.207 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-06-23 01:20:12.896 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:20:12.896 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@61c0a3eb: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:20:12.896 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:20:33.919 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:20:33.919 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:20:59.974 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:20:59.974 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@14bd0527: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:20:59.974 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:21:21.000 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:21:21.000 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:21:47.060 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:21:47.060 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@73d4280e: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:21:47.060 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:22:08.069 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:22:08.070 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:22:34.152 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:22:34.152 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@eaf4a96: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:22:34.152 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:22:55.176 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:22:55.176 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:23:21.260 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:23:21.260 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5623e1e2: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:23:21.260 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:23:42.283 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:23:42.283 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:24:08.311 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:24:08.311 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7a961af0: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:24:08.312 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:24:29.315 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:24:29.315 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:24:55.330 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:24:55.330 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@3ebd2630: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:24:55.331 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:25:09.209 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-06-23 01:25:16.336 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:25:16.336 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:25:42.360 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:25:42.360 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@23ada1a1: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:25:42.361 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:26:03.365 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:26:03.365 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:26:29.391 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:26:29.391 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@1ede1e66: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:26:29.392 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:26:50.406 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:26:50.406 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:27:16.432 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:27:16.432 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5f636c06: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:27:16.433 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:27:37.437 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:27:37.437 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:28:03.478 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:28:03.478 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@669f76b: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:28:03.479 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:28:24.482 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:28:24.482 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:28:50.554 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] WARN  o.s.a.r.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2020-06-23 01:28:50.554 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5f1db296: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2020-06-23 01:28:50.554 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
+2020-06-23 01:29:11.556 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 11 common frames omitted
+2020-06-23 01:29:11.556 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [192.168.183.129:5672]
